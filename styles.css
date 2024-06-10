@@ -1,0 +1,58 @@
+body {            
+    margin: 0;            
+    padding: 0;            
+    display: flex;            
+    justify-content: center;            
+    align-items: center;            
+    height: 100vh;            
+    background-color: #AFCAAF;          
+    font-family: Arial, sans-serif;        
+}
+.container {         /*tela de login*/     
+display: flex;            
+width: 80%;            
+height: 90%;            
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.151);            
+border-radius: 10px;            
+overflow: hidden;        
+}
+.image {    /*imagem de plantas*/        
+    flex: 1;            
+    background: center center no-repeat;            
+    background-size: cover; 
+}    
+.login {        /*tela de login*/
+flex: 1;            
+padding: 40px;            
+background-color: #ffffff;            
+display: flex;            
+flex-direction: column;            
+justify-content: center;            
+align-items: center;       /*deixar o de escrever no meio*/ 
+}
+.login h1 {            
+margin-bottom: 20px;        
+}
+.login form {        /*largura do input*/    
+width: 100%;            
+max-width: 300px;        
+}
+.login input {       /*escrver as senhas*/      
+width: 100%;            
+padding: 10px;            
+margin: 10px 0;            
+border: 1px solid #ccc;            
+border-radius: 5px;        
+}
+.login button {            
+width: 100%;            
+padding: 10px;            
+background-color: #000000;            
+color: white;            
+border: none;            
+border-radius: 5px;            
+cursor: pointer;        
+}
+.login button:hover {       /*muda a cor*/     
+background-color: #8d8d8d;        
+}
